@@ -17,10 +17,10 @@ public class driver {
         while(true){
 
             sun = new stationary(0, 0, 218, "ORANGE");
-            earth = new movable(150, earthOrbit, 6, "GREEN", 0, 0);
+            earth = new movable(150, earthOrbit, 5, "GREEN", 0, 0);
             mars = new movable(200, marsOrbit, 6, "RED", 0, 0);
-            jupiter = new movable(400, jupiterOrbit, 6, "YELLOW", 4, 0);
-            neptune = new movable(450, neptuneOrbit, 6, "BLUE", 10, 0);
+            jupiter = new movable(400, jupiterOrbit, 15, "YELLOW", 4, 0);
+            neptune = new movable(450, neptuneOrbit, 10, "BLUE", 10, 0);
 
 
             solarSystem.finishedDrawing();
