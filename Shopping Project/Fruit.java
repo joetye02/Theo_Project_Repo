@@ -1,7 +1,38 @@
 public class Fruit{
 
-    public static void main(String[] args){
+    private String name;
+    private double price;
+    private double weight;
+    private boolean organic;
 
-        System.out.println("hello world");
+    
+    public Fruit(String name, double price, double weight, boolean organic){
+
+        this.name = name;
+        this.price = price;
+        this.weight = weight;
+        this.organic = organic;
+
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public double getPrice(){
+        return (weight * price);
+    }
+
+    public int getNameLen(){
+        String astFru = "";
+        for(int x = 0; len(name); x++){
+            astFru = astFru + "*";
+        }
+    return astFru;
     }
 }
+
